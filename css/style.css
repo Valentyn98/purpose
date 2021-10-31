@@ -31,37 +31,45 @@ body {
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table{
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 .wrapper {
   max-width:1440px;
   margin: 0 auto;
   padding: 0px;
 }
+
 .contain{
   width: 1920px;
   height: 36px;
   background-color: #0F2438;
 }
+
 .header_top{
   height: 36px;
 }
+
 .top_nav_item{
   font-size: 14px;
   list-style: none;
   text-decoration: none;
   color: white;
 }
+
 .top_nav_item_l{
   margin-right: 30px;
   font-size: 14px;
@@ -69,9 +77,11 @@ table{
   text-decoration: none;
   color: white;
 }
+
 .top_nav_item_l span{
   text-decoration-line: underline;
 }
+
 .col_gap{
   column-gap: 30px;
 }
@@ -79,23 +89,30 @@ table{
 .cl_gp{
   column-gap: 15px;
 }
+.row_gap{
+  row-gap: 15px;
+}
 .header_mid{
   padding: 50px 0;
   height: 90px;
 }
+
 h1{
   font-size: 24px;
   line-height: 28px;
   color: #0F2438;
 }
+
 .for_h1{
   font-size: 12px;
   line-height: 14px;
 }
+
 .for_oclock{
   text-align: right;
   margin-left: 8px;
 }
+
 .whats_but{
   font-family: Rubik;
   background: #E1EFD0;
@@ -107,11 +124,13 @@ h1{
   line-height: 14px;
   cursor: pointer;
 }
+
 .our_number{
   font-size: 20px;
   line-height: 23px;
   color: #0F2438;
 }
+
 .for_our_num{
   text-align: right;
   font-size: 12px;
@@ -120,6 +139,7 @@ h1{
   color: #0F2438;
   opacity: 0.7;
 }
+
 #but_bur{
   width: 164px;
   height: 53px;
@@ -128,20 +148,24 @@ h1{
   color: white;
   border: none;
 }
+
 .buregr{
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
+
 .burger_on_b{
   width: 25px;
   height: 3px;
   background-color: white;
   margin-bottom: 3px;
 }
+
 .input-group{
   width: 659px;
 }
+
 .btn{
   width: 101px;
   height: 53px;
@@ -149,19 +173,85 @@ h1{
   border-radius: 0px 6px 6px 0px;
   color: white;
 }
+
 .form-control{
   border: none;
   background: #F4F5FA;
   border-radius: 6px 0px 0px 6px;
 }
+
 .vert_line{
   width: 2px;
   height: 26px;
   background-color:  #E1E5F8;
 }
+
 .range{
   height: 20px;
   width: 1920px;
   background-color: white;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15);
 }
+
+.slider{
+  width: 1008px;
+  height: 390px;
+}
+.main{
+  margin-top: 40px;
+}
+.stock_1{
+  width: 336px;
+  height: 188px;
+  background: #F4F5FA;
+  border-radius: 10px;
+}
+.wrap_stock{
+  width: 306px;
+  height: 148px;
+  margin: 20px 15px 20px 15px ;
+}
+
+.stock_but{
+  width: 57px;
+  height: 49px;
+  background: #005BB9;
+  border-radius: 6px;
+  border: none;
+}
+.bl_photo_stock{
+  margin-top: 10px;
+}
+.price_stock{
+  margin-top: 19px;
+}
+.p_stock_name{
+  font-size: 14px;
+  line-height: 16px;
+  color: #0F2438;
+}
+.p_info_ab_stock{
+  font-size: 16px;
+  line-height: 23px;
+  color: #0A1A2C;
+}
+.p_name_ab_stock{
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #525252;
+}
+.p_price{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFB800;
+  margin-right: 10px;
+}
+.p_price span{
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: line-through;
+  color: #C2C5DA;
+}
+
