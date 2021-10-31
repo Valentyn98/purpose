@@ -24,9 +24,9 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1;
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Tinos', serif;
+  line-height:1 ;
+  font-family: 'Roboto','Rubik', sans-serif;
+  font-weight: 500;
 }
 ol, ul {
   list-style: none;
@@ -39,14 +39,129 @@ q:before, q:after {
   content: '';
   content: none;
 }
-table {
+table{
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 .wrapper {
-  max-width: 1200px;
+  max-width:1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0px;
+}
+.contain{
+  width: 1920px;
+  height: 36px;
+  background-color: #0F2438;
+}
+.header_top{
+  height: 36px;
+}
+.top_nav_item{
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.top_nav_item_l{
+  margin-right: 30px;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.top_nav_item_l span{
+  text-decoration-line: underline;
+}
+.col_gap{
+  column-gap: 30px;
 }
 
+.cl_gp{
+  column-gap: 15px;
+}
+.header_mid{
+  padding: 50px 0;
+  height: 90px;
+}
+h1{
+  font-size: 24px;
+  line-height: 28px;
+  color: #0F2438;
+}
+.for_h1{
+  font-size: 12px;
+  line-height: 14px;
+}
+.for_oclock{
+  text-align: right;
+  margin-left: 8px;
+}
+.whats_but{
+  font-family: Rubik;
+  background: #E1EFD0;
+  border-radius: 2px;
+  border: none;
+  width: 204px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+.our_number{
+  font-size: 20px;
+  line-height: 23px;
+  color: #0F2438;
+}
+.for_our_num{
+  text-align: right;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #0F2438;
+  opacity: 0.7;
+}
+#but_bur{
+  width: 164px;
+  height: 53px;
+  background: #005BB9;
+  border-radius: 6px;
+  color: white;
+  border: none;
+}
+.buregr{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.burger_on_b{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 3px;
+}
+.input-group{
+  width: 659px;
+}
+.btn{
+  width: 101px;
+  height: 53px;
+  background: #005BB9;
+  border-radius: 0px 6px 6px 0px;
+  color: white;
+}
+.form-control{
+  border: none;
+  background: #F4F5FA;
+  border-radius: 6px 0px 0px 6px;
+}
+.vert_line{
+  width: 2px;
+  height: 26px;
+  background-color:  #E1E5F8;
+}
+.range{
+  height: 20px;
+  width: 1920px;
+  background-color: white;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15);
+}
