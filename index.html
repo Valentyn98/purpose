@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@500&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
@@ -104,14 +105,14 @@
           <div class="vert_line"></div><!-- line -->
           <div class="d-flex align-items-center cl_gp">
             <div><img src="./image/Group%20(1).svg" alt=""></div>
-            <div><p>В корзине
+            <div><p>В корзине <br>
               нет товаров</p></div>
           </div>
         </section>
       </div><!-- header-bot -->
   </header>
   <div class="range"></div>
-  <main class="main ">
+  <main class="main d-flex flex-column rw_gp">
     <div class="main_top wrapper d-flex cl_gp ">
       <div class="slider"><!-- slider -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -152,7 +153,7 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+      </div><!-- slider-end -->
       <div class="stock d-flex flex-column row_gap ">
         <div class="stock_1">
           <div class="wrap_stock  ">
@@ -190,7 +191,59 @@
         </div>
       </div>
     </div>
+    <div class="main_mid wrapper d-flex align-items-center justify-content-between ">
+      <div class="medium_chapter d-flex">
+        <div class="left_tab"><img src="./image/left.png" alt=""></div>
+        <div class="med_chap_cont">
+          <div><p class="med_chap_cont_p">Масла</p></div>
+          <div><p class="md_chp_cnt_p_inf">Трансмиссионное масло;
+            присалка в масло акпп</p></div>
+          <div><button class="medium_chapter_but">Перейти</button></div>
+        </div>
+        <div><img src="./image/maslo.png" alt=""></div>
+      </div>
+      <div class="medium_chapter d-flex">
+        <div class="med_chap_cont">
+          <div><p class="med_chap_cont_p">Фильтры</p></div>
+          <div><p class="md_chp_cnt_p_inf">Масляный фильтр;
+            фильтр воздушный</p></div>
+          <div><button class="medium_chapter_but">Перейти</button></div>
+        </div>
+        <div><img src="./image/filtr.png" alt=""></div>
+      </div>
+      <div class="medium_chapter d-flex ">
+        <div class="right_tab"><img src="./image/right.png" alt=""></div>
+        <div class="med_chap_cont ">
+          <div><p class="med_chap_cont_p">Радиаторы</p></div>
+          <div><p class="md_chp_cnt_p_inf">Дополнительные
+            радиаторы</p></div>
+          <div><button class="medium_chapter_but">Перейти</button></div>
+        </div>
+        <div><img src="./image/raditor.png" alt=""></div>
+      </div>
+    </div><!-- medium_chapter three box-flex  -->
+    <div class="main_bot wrapper ">
+      <div class="but_inform_about_prod  d-flex cl_gp ">
+        <div><button class="group_prod">Подборки товаров</button></div>
+        <div><button class="low_price">Акции</button></div>
+        <div><button class="buy_now">Сейчас покупают</button></div>
+      </div><!-- but_inform_about_prod --> <!-- three butt -->
+      <section class="grid_prod">
+        <div class="block_prod d-flex flex-column row_gap">
+          <div><img src="./image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt=""></div>
+          <div class=" d-flex"><img src="./image/Star%202.png" alt=""><p>4.5</p><span>10 отзывов</span></div>
+          <div><p>Intermediate accumelator sleeve</p></div>
+          <div><p>ЦЕНА<span>по запросу</span></p></div>
+          <div class=" d-flex cl_gp justify-content-center align-items-center ">
+            <div class=""><button class="but_block_prod"><img src="./image/cart.png" alt="">В корзину</button></div>
+            <div><img src="./image/like.svg" alt=""></div>
+            <div><img src="./image/statis.svg" alt=""></div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js.js"></script>
 </body>
 </html>

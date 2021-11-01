@@ -48,7 +48,7 @@ table{
 }
 
 .wrapper {
-  max-width:1440px;
+  max-width:1355px;
   margin: 0 auto;
   padding: 0px;
 }
@@ -85,13 +85,16 @@ table{
 .col_gap{
   column-gap: 30px;
 }
-
 .cl_gp{
   column-gap: 15px;
 }
 .row_gap{
   row-gap: 15px;
 }
+.rw_gp{
+  row-gap: 77px;
+}
+
 .header_mid{
   padding: 50px 0;
   height: 90px;
@@ -194,7 +197,7 @@ h1{
 }
 
 .slider{
-  width: 1008px;
+  width: 1042px;
   height: 390px;
 }
 .main{
@@ -254,4 +257,109 @@ h1{
   text-decoration-line: line-through;
   color: #C2C5DA;
 }
+.main_mid{
+  column-gap: 30px;
+}
 
+.med_chap_cont{ /*medium_chapter three box-flex*/
+  padding: 25px;
+}
+.medium_chapter{
+  width: 431px;
+  height: 184px;
+  background: #FFFFFF;
+  border: 1px solid #E1E5F8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+}
+.left_tab{
+  position: absolute;
+  top: 50px;
+  left: -40px;
+}
+.right_tab{
+  position: absolute;
+  top: 50px;
+  left: 387px;
+}
+.med_chap_cont_p{
+  color: #0A1A2C;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 5px;
+
+}
+.md_chp_cnt_p_inf{
+  font-size: 14px;
+  line-height: 24px;
+  color: #0A1A2C;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.medium_chapter_but{
+  margin-top: 10px;
+  width: 86px;
+  height: 26px;
+  background: #005BB9;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.but_inform_about_prod{ /*but_inform_about_prod --> <!-- three butt*/
+  width: 1355px;
+}
+.group_prod{
+  width: 241px;
+  height: 55px;
+  background: #005BB9;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  border: none;
+}
+.low_price{
+  width: 123px;
+  height: 55px;
+  border: 2px solid #005BB9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005BB9;
+  background-color: #FFFFFF;
+}
+.buy_now{
+  width: 229px;
+  height: 55px;
+  border: 2px solid #005BB9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005BB9;
+  background-color: #FFFFFF;
+}
+.but_block_prod{
+  width: 160px;
+  height: 49px;
+  background: #005BB9;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  border:none;
+}
+.grid_prod{
+  margin-top: 10px;
+}
+.block_prod{
+  height: 418px;
+  width: 316px;
+}
